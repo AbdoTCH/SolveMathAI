@@ -1,0 +1,6 @@
+{
+  "name": "SolveMath AI",
+  "description": "Structured math problem solver using the 4-step method: Variable selection, Equation setup, Resolution, and Verification. Supports algebra, geometry, and calculus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
