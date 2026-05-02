@@ -25,7 +25,7 @@ Use LaTeX for mathematical notation where appropriate (e.g., $x^2$, $\\frac{a}{b
 export async function solveMathProblem(problem: string): Promise<MathSolution> {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3.1-preview",
+      model: "gemini-3-flash-preview",
       contents: problem,
       config: {
         systemInstruction,
